@@ -1,0 +1,26 @@
+{
+  "name": "vibe-engine",
+  "version": "1.0.0",
+  "description": "Vibe Editor Backend - AST Engine & Terminal Server",
+  "main": "src/server.ts",
+  "scripts": {
+    "dev": "npx ts-node src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@fastify/cors": "^11.2.0",
+    "@fastify/websocket": "^11.2.0",
+    "@types/jscodeshift": "^17.3.0",
+    "@types/node": "^25.2.3",
+    "fastify": "^5.7.4",
+    "jscodeshift": "^17.3.0",
+    "node-pty": "^1.1.0",
+    "socket.io": "^4.8.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
